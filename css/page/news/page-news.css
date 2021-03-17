@@ -43,7 +43,7 @@ html {
 
 .news-btn {
   display: inline-block;
-  width: 300px;
+  width: 100%;
   max-width: 300px;
   font-size: 16px;
   font-size: 1.6rem;
