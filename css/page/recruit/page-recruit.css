@@ -1,0 +1,97 @@
+html {
+  font-size: 62.5%;
+}
+
+.pagevisual {
+  height: 250px;
+  width: 100%;
+  background: url(../../../img/mv.png) center/cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pagevisual-ttl {
+  color: white;
+}
+
+.contact {
+  background-color: #f5f6f9;
+}
+
+.contact-inner {
+  text-align: center;
+}
+
+.contact-text {
+  font-size: 16px;
+  font-size: 1.6rem;
+  margin-top: 10px;
+}
+
+.contact-btn {
+  display: inline-block;
+  width: 300px;
+  max-width: 300px;
+  font-size: 16px;
+  font-size: 1.6rem;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #cd0224;
+  text-align: center;
+}
+
+.contact-btn:hover {
+  opacity: 0.7;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.recruit-ttl {
+  font-size: 26px;
+  font-size: 2.6rem;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+.recruit-text {
+  font-size: 16px;
+  font-size: 1.6rem;
+  margin-top: 20px;
+}
+
+.recruit-table {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.recruit-table tr th {
+  font-size: 16px;
+  font-size: 1.6rem;
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  width: 30%;
+  background-color: #f5f6f9;
+}
+
+.recruit-table tr td {
+  font-size: 16px;
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 1px solid black;
+  width: 70%;
+}
+
+.recruit ._career {
+  margin-top: 80px;
+}
+
+/*# sourceMappingURL=../../maps/page/recruit/page-recruit.css.map */

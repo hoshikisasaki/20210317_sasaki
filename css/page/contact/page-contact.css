@@ -1,0 +1,72 @@
+html {
+  font-size: 62.5%;
+}
+
+.pagevisual {
+  height: 250px;
+  width: 100%;
+  background: url(../../../img/mv.png) center/cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pagevisual-ttl {
+  color: white;
+}
+
+.pagecontact .formitem {
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
+.pagecontact .formitem:nth-of-type(n+2) {
+  margin-top: 20px;
+}
+
+.pagecontact .formitem-input {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  padding: 3px;
+}
+
+.pagecontact .formitem-name {
+  font-weight: bold;
+}
+
+.pagecontact .formitem-textarea {
+  border: 1px solid #ccc;
+  width: 100%;
+  padding: 3px;
+}
+
+.pagecontact .formitem-required {
+  color: #cd0224;
+}
+
+.pagecontact-btn {
+  display: inline-block;
+  width: 300px;
+  max-width: 300px;
+  font-size: 16px;
+  font-size: 1.6rem;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  background-color: #cd0224;
+  text-align: center;
+  font-size: 14px;
+  font-size: 1.4rem;
+  background-color: black;
+  margin: 20px auto 0;
+  display: block;
+}
+
+/*# sourceMappingURL=../../maps/page/contact/page-contact.css.map */
